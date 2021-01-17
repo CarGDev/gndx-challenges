@@ -1,1 +1,45 @@
+.header {
+  padding: 10px;
+  background-color: #010114;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 120px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__logo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}
+
+.header__pages {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__pages a {
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  width: 100px;
+  height: 30px;
+  color: #cfcfe3;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.header__pages a:hover {
+  background: #1b1b6b;
+}
 
