@@ -19,7 +19,12 @@ const routes: Routes = [
       {
         path: 'notFound',
         loadChildren: () => import ('./not-found/not-found.module').then(m => m.NotFoundModule)
+      },
+      {
+        path: 'dashboard',
+        loadChildren: () => import ('./dashboard/dashboard.module').then(m => m.DashboardModule)
       }
+
     ]
   },
   {

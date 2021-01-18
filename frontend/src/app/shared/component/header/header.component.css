@@ -12,6 +12,10 @@
   justify-content: center;
 }
 
+.header__logo img:hover {
+  cursor: pointer;
+}
+
 .header__logo img {
   width: 90px;
   height: 90px;

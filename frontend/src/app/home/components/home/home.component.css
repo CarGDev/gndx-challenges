@@ -1,1 +1,43 @@
+.container {
+  margin: 20px;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title__name {
+  margin-left: 5px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__content {
+  width: 70%;
+  align-self: center;
+  font-size: 35px;
+  text-align: justify;
+}
 
