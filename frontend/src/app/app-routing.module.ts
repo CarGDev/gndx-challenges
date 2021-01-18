@@ -23,8 +23,39 @@ const routes: Routes = [
       {
         path: 'dashboard',
         loadChildren: () => import ('./dashboard/dashboard.module').then(m => m.DashboardModule)
+      },
+      {
+        path: 'uploader',
+        loadChildren: () => import ('./uploader/uploader.module').then(m => m.UploaderModule)
+      },
+      {
+        path: 'weather',
+        loadChildren: () => import ('./weather/weather.module').then(m => m.WeatherModule)
+      },
+      {
+        path: 'github',
+        loadChildren: () => import ('./github/github.module').then(m => m.GithubModule)
+      },
+      {
+        path: 'tracker',
+        loadChildren: () => import ('./tracker/tracker.module').then(m => m.TrackerModule)
+      },
+      {
+        path: 'auth',
+        loadChildren: () => import ('./auth/auth.module').then(m => m.AuthModule)
+      },
+      {
+        path: 'pricing',
+        loadChildren: () => import ('./pricing/pricing.module').then(m => m.PricingModule)
+      },
+      {
+        path: 'chat',
+        loadChildren: () => import ('./chat/chat.module').then(m => m.ChatModule)
+      },
+      {
+        path: 'trello',
+        loadChildren: () => import ('./trello/trello.module').then(m => m.TrelloModule)
       }
-
     ]
   },
   {
